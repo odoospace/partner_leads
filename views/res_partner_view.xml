@@ -14,13 +14,7 @@
                 'search_default_partner_id': active_id, 
                 }
             </field>
-
-            <field name="domain">{ 'type':'lead' 
-                }
-            </field>
-
-          
-
+            <field name="domain">[('type', '=', 'lead')]</field>
             <field name="arch" type="xml">
                 <tree string="Iniciativa_por_cliente">
                     <field name="date"/>
@@ -59,7 +53,7 @@
                             context="{'search_default_partner_id': active_id}"
                             help="Show the number of Leads of this partner"
                             >
-                    <field string="Leads" name="lead_count" widget="statinfo"/>
+                    <field string="Leads" name="lead_count" widget="statinfo" />
                 </button>
             </xpath>
       </field>  
