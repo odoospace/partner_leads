@@ -1,0 +1,43 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_leads
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-30 13:36+0100\n"
+"PO-Revision-Date: 2017-01-30 13:36+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Last-Translator: \n"
+"Language: es\n"
+
+#. module: partner_leads
+#: view:res.partner:partner_leads.res_partner_view_extra
+msgid "Leads"
+msgstr "Inciativas"
+
+#. module: partner_leads
+#: model:ir.actions.act_window,name:partner_leads.partner_leads_tree
+msgid "Leads of a specific partner"
+msgstr "Iniciativas para un cliente especifico"
+
+#. module: partner_leads
+#: model:ir.model,name:partner_leads.model_res_partner
+msgid "Partner"
+msgstr "Cliente\t"
+
+#. module: partner_leads
+#: view:res.partner:partner_leads.res_partner_view_extra
+msgid "Show the number of Leads of this partner"
+msgstr "Indica el numero de inciativas de este partner"
+
+#. module: partner_leads
+#: field:res.partner,lead_count:0
+msgid "number of Leads"
+msgstr "numero de inciativas"

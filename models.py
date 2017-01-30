@@ -5,7 +5,7 @@ from openerp import models, fields, api
 class Lead(models.Model):
     _inherit = 'res.partner' 
 
-    lead_count = fields.Integer(compute='_lead_count', string='# of leads')
+    lead_count = fields.Integer(compute='_lead_count', string='number of Leads')
 
     @api.one
     def _lead_count(self):

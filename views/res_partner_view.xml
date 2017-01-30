@@ -5,7 +5,7 @@
       -->
 
           <record model="ir.actions.act_window" id="partner_leads_tree">
-            <field name="name">Leads_of_partner</field>
+            <field name="name">Leads of a specific partner</field>
             <field name="res_model">crm.lead</field>
             <!-- metto view type = tree  ?     -->
             <field name="view_type">form</field>
@@ -57,9 +57,9 @@
                             name="%(partner_leads_tree)d"
                             icon="fa-bell"
                             context="{'search_default_partner_id': active_id}"
-                            help="Indica el numero de inciativas de este partner"
+                            help="Show the number of Leads of this partner"
                             >
-                    <field string="Lead" name="lead_count" widget="statinfo"/>
+                    <field string="Leads" name="lead_count" widget="statinfo"/>
                 </button>
             </xpath>
       </field>  
